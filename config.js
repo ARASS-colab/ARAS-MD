@@ -21,15 +21,15 @@ export default {
   SESSION_ID: process.env.SESSION_ID || "",
   PREFIX: process.env.PREFIX || ".",
   CHATBOT: process.env.CHATBOT || "off",
-  BOT_NAME: process.env.BOT_NAME || "KHAN-MD",
+  BOT_NAME: process.env.BOT_NAME || "ARAS-MD",
   MODE: process.env.MODE || "private",
-  REPO: process.env.REPO || "https://github.com/JawadTechYT/KHAN-MD",
-  WEBPAIR: process.env.WEBPAIR || "https://khanmd-pairx.onrender.com",
+  REPO: process.env.REPO || "https://github.com/ARASS-colab/ARAS-MD",
+  WEBPAIR: process.env.WEBPAIR || "https://arasmd-pairx.onrender.com",
   NEWSLETTERID: process.env.NEWSLETTERID || "120363426563532140@newsletter",
  
   // ===== OWNER & DEVELOPER SETTINGS =====
-  OWNER_NUMBER: process.env.OWNER_NUMBER || "92342*******",
-  OWNER_NAME: process.env.OWNER_NAME || "Jᴀᴡᴀᴅ TᴇᴄʜX",
+  OWNER_NUMBER: process.env.OWNER_NUMBER || "212636253953",
+  OWNER_NAME: process.env.OWNER_NAME || "𝘼𝙍𝘼𝙎 TᴇᴄʜX",
   SUDO: process.env.SUDO 
     ? process.env.SUDO.split(',').map(s => s.trim()) 
     : ["123@lid"],
@@ -56,14 +56,14 @@ export default {
   // ===== AUTO-RESPONSE SETTINGS =====
   AUTO_REPLY: process.env.AUTO_REPLY || "false",
   AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
-  AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*KHAN MD VIEWED YOUR STATUS 🤖*",
+  AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*ARAS MD VIEWED YOUR STATUS 🤖*",
   READ_MESSAGE: process.env.READ_MESSAGE || "false",
   REJECT_MSG: process.env.REJECT_MSG || "*📞 ᴄαℓℓ ɴσт αℓℓσωє∂ ιɴ тнιѕ ɴᴜмвєʀ уσυ ∂σɴт нανє ᴘєʀмιѕѕισɴ 📵*",
 
   // ===== REACTION SETTINGS =====
   AUTO_REACT: process.env.AUTO_REACT || "false",
   OWNER_REACT: process.env.OWNER_REACT || "false",
-  STICKER_NAME: process.env.STICKER_NAME || "KHAN-MD",
+  STICKER_NAME: process.env.STICKER_NAME || "ARAS-MD",
   AUTO_STICKER: process.env.AUTO_STICKER || "false",
   AUTO_VOICE: process.env.AUTO_VOICE || "false",
   STATUS_SENDER: process.env.STATUS_SENDER || "true",
@@ -99,7 +99,7 @@ export default {
   ANTIEDIT_PATH: process.env.ANTIEDIT_PATH || "inbox",
 
   // ===== BOT BEHAVIOR & APPEARANCE =====
-  DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ Jᴀᴡᴀᴅ TᴇᴄʜX*",
+  DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ Arass TᴇᴄʜX*",
   AUTO_LIKE_STATUS: process.env.AUTO_LIKE_STATUS || "false",
   AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
   AUTO_BIO: process.env.AUTO_BIO || "false",
